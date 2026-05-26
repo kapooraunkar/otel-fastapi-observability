@@ -1,5 +1,6 @@
-from database import SessionLocal
-from database import User
+from app.database import SessionLocal
+
+from app.models.user_model import User
 
 
 # creates DB session
