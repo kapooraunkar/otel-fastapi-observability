@@ -2,7 +2,7 @@ from fastapi import APIRouter
 
 
 # router object
-router = APIRouter()
+router = APIRouter(prefix="/api/v1",tags=["Health"])  #now url becomes /api/v1/health
 
 
 # -----------------------------
